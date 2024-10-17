@@ -14,7 +14,7 @@ layers:
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-control$$
+  - '&td0'
   - A
   - S
   - D
@@ -25,9 +25,9 @@ layers:
   - J
   - K
   - L
-  - '&tap_dance_pc'
-  - '&tap_dance_comi'
-  - '&td0'
+  - {t: ;, s: ':'}
+  - {t: '''', s: '"'}
+  - $$mdi:apple-keyboard-control$$
   - Z
   - X
   - C
@@ -36,8 +36,8 @@ layers:
   - $$mdi:arrow-left-bold$$
   - N
   - M
-  - '&tap_dance_lt'
-  - '&tap_dance_gt'
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:keyboard-esc$$
   - $$mdi:keyboard-space$$
