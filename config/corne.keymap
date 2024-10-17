@@ -33,12 +33,13 @@
             time-to-max-speed-ms = <400>;      // 500
             delay-ms = <0>;                   // 10
         };
-//        tap_dance_pc: tap_dance_pc {
-//            compatible = "zmk, behavior-tap-dance";
-//            #binding-cells = <0>;
-//            tapping-term-ms = <200>;
-//            bindings = <&kp SEMICOLON>, <&kp COLON>;
-//        };
+        tap_dance_sc: tap_dance_sc {
+            compatible = "zmk,behavior-tap-dance";
+            label = "t_sc"
+            #binding-cells = <0>;
+            //tapping-term-ms = <200>;
+            bindings = <&kp SEMICOLON>, <&kp COLON>;
+        };
 //
 //        tap_dance_comi: tap_dance_comi {
 //            compatible = "zmk, behavior-tap-dance";
