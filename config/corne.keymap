@@ -33,40 +33,40 @@
             time-to-max-speed-ms = <400>;      // 500
             delay-ms = <0>;                   // 10
         };
-        tap_dance_pc: tap_dance_pc {
-            compatible = "zmk, behavior-tap-dance";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp SEMICOLON>, <&kp COLON>;
-        };
-
-        tap_dance_comi: tap_dance_comi {
-            compatible = "zmk, behavior-tap-dance";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp SQT>, <&kp DQT>;
-        };
-
-        tap_dance_sla: tap_dance_sla {
-            compatible = "zmk, behavior-tap-dance";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp SLASH>, <&kp QUESTION>;
-        };
-
-        tap_dance_lt: tap_dance_lt {
-            compatible = "zmk, behavior-tap-dance";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp COMMA>, <&kp LESS_THAN>;
-        };
-
-        tap_dance_gt: tap_dance_gt {
-            compatible = "zmk, behavior-tap-dance";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp DOT>, <&kp GREATER_THAN>;
-        };
+//        tap_dance_pc: tap_dance_pc {
+//            compatible = "zmk, behavior-tap-dance";
+//            #binding-cells = <0>;
+//            tapping-term-ms = <200>;
+//            bindings = <&kp SEMICOLON>, <&kp COLON>;
+//        };
+//
+//        tap_dance_comi: tap_dance_comi {
+//            compatible = "zmk, behavior-tap-dance";
+//            #binding-cells = <0>;
+//            tapping-term-ms = <200>;
+//            bindings = <&kp SQT>, <&kp DQT>;
+//        };
+//
+//        tap_dance_sla: tap_dance_sla {
+//            compatible = "zmk, behavior-tap-dance";
+//            #binding-cells = <0>;
+//            tapping-term-ms = <200>;
+//            bindings = <&kp SLASH>, <&kp QUESTION>;
+//        };
+//
+//        tap_dance_lt: tap_dance_lt {
+//            compatible = "zmk, behavior-tap-dance";
+//            #binding-cells = <0>;
+//            tapping-term-ms = <200>;
+//            bindings = <&kp COMMA>, <&kp LESS_THAN>;
+//        };
+//
+//        tap_dance_gt: tap_dance_gt {
+//            compatible = "zmk, behavior-tap-dance";
+//            #binding-cells = <0>;
+//            tapping-term-ms = <200>;
+//            bindings = <&kp DOT>, <&kp GREATER_THAN>;
+//        };
 //        tap_dance_cut: tap_dance_cut {
 //            compatible = "zmk, behavior-tap-dance";
 //            #binding-cells = <0>;
