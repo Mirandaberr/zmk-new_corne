@@ -48,27 +48,30 @@
             tapping-term-ms = <200>;
             bindings = <&kp SQT>, <&kp DQT>;
         };
-//
-//        tap_dance_sla: tap_dance_sla {
-//            compatible = "zmk,behavior-tap-dance";
-//            #binding-cells = <0>;
-//            tapping-term-ms = <200>;
-//            bindings = <&kp SLASH>, <&kp QUESTION>;
-//        };
-//
-//        tap_dance_lt: tap_dance_lt {
-//            compatible = "zmk,behavior-tap-dance";
-//            #binding-cells = <0>;
-//            tapping-term-ms = <200>;
-//            bindings = <&kp COMMA>, <&kp LESS_THAN>;
-//        };
-//
-//        tap_dance_gt: tap_dance_gt {
-//            compatible = "zmk,behavior-tap-dance";
-//            #binding-cells = <0>;
-//            tapping-term-ms = <200>;
-//            bindings = <&kp DOT>, <&kp GREATER_THAN>;
-//        };
+
+        t_sl: t_sl {
+            compatible = "zmk,behavior-tap-dance";
+            label = "t_sl";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp SLASH>, <&kp QUESTION>;
+        };
+
+        t_cl: t_cl {
+            compatible = "zmk,behavior-tap-dance";
+            label = "t_cl";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp COMMA>, <&kp LESS_THAN>;
+        };
+
+        t_dot: t_dot {
+            compatible = "zmk,behavior-tap-dance";
+            label = "t_dot";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp DOT>, <&kp GREATER_THAN>;
+        };
 //        tap_dance_cut: tap_dance_cut {
 //            compatible = "zmk,behavior-tap-dance";
 //            #binding-cells = <0>;
