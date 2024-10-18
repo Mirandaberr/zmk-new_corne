@@ -42,7 +42,7 @@
         };
 
         t_qt: t_qt {
-            compatible = "zmk, behavior-tap-dance";
+            compatible = "zmk,behavior-tap-dance";
             label = "t_qt";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
@@ -50,33 +50,33 @@
         };
 //
 //        tap_dance_sla: tap_dance_sla {
-//            compatible = "zmk, behavior-tap-dance";
+//            compatible = "zmk,behavior-tap-dance";
 //            #binding-cells = <0>;
 //            tapping-term-ms = <200>;
 //            bindings = <&kp SLASH>, <&kp QUESTION>;
 //        };
 //
 //        tap_dance_lt: tap_dance_lt {
-//            compatible = "zmk, behavior-tap-dance";
+//            compatible = "zmk,behavior-tap-dance";
 //            #binding-cells = <0>;
 //            tapping-term-ms = <200>;
 //            bindings = <&kp COMMA>, <&kp LESS_THAN>;
 //        };
 //
 //        tap_dance_gt: tap_dance_gt {
-//            compatible = "zmk, behavior-tap-dance";
+//            compatible = "zmk,behavior-tap-dance";
 //            #binding-cells = <0>;
 //            tapping-term-ms = <200>;
 //            bindings = <&kp DOT>, <&kp GREATER_THAN>;
 //        };
 //        tap_dance_cut: tap_dance_cut {
-//            compatible = "zmk, behavior-tap-dance";
+//            compatible = "zmk,behavior-tap-dance";
 //            #binding-cells = <0>;
 //            tapping-term-ms = <200>;
 //            bindings = <&kp LC(C)>, <&kp LG(C)>;
 //        };
 //         tap_dance_paste: tap_dance_paste {
-//            compatible = "zmk, behavior-tap-dance";
+//            compatible = "zmk,behavior-tap-dance";
 //            #binding-cells = <0>;
 //           tapping-term-ms = <200>;
 //            bindings = <&kp LC(V)>, <&kp LG(V)>;
