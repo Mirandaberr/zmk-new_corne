@@ -42,7 +42,7 @@
         };
 
         t_qt: t_qt {
-            compatible = "zmk, behavior-tap-dance";
+            compatible = "zmk,behavior-tap-dance";
             label = "t_qt";
             #binding-cells = <0>;
             //tapping-term-ms = <200>;
@@ -50,7 +50,7 @@
         };
 
         t_sl: t_sl {
-            compatible = "zmk, behavior-tap-dance";
+            compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             label = "t_sl";
             //tapping-term-ms = <200>;
@@ -58,7 +58,7 @@
         };
 
         t_lt: t_lt {
-            compatible = "zmk, behavior-tap-dance";
+            compatible = "zmk,behavior-tap-dance";
             label = "t_lt";
             #binding-cells = <0>;
             //tapping-term-ms = <200>;
@@ -66,20 +66,20 @@
         };
 
         t_dt: t_dt {
-            compatible = "zmk, behavior-tap-dance";
+            compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             label = "t_dt";
             //tapping-term-ms = <200>;
             bindings = <&kp DOT>, <&kp GREATER_THAN>;
         };
         t_cut: t_cut {
-            compatible = "zmk, behavior-tap-dance";
+            compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             //tapping-term-ms = <200>;
             bindings = <&kp LC(C)>, <&kp LG(C)>;
         };
          t_paste: t_paste {
-            compatible = "zmk, behavior-tap-dance";
+            compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             //tapping-term-ms = <200>;
             bindings = <&kp LC(V)>, <&kp LG(V)>;
