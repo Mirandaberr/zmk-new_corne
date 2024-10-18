@@ -68,7 +68,7 @@
         t_dt: t_dt {
             compatible = "zmk, behavior-tap-dance";
             #binding-cells = <0>;
-            label = "t_dt"
+            label = "t_dt";
             //tapping-term-ms = <200>;
             bindings = <&kp DOT>, <&kp GREATER_THAN>;
         };
