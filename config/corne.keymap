@@ -37,16 +37,17 @@
             compatible = "zmk,behavior-tap-dance";
             label = "t_sc";
             #binding-cells = <0>;
-            //tapping-term-ms = <200>;
+            tapping-term-ms = <200>;
             bindings = <&kp SEMICOLON>, <&kp COLON>;
         };
-//
-//        tap_dance_comi: tap_dance_comi {
-//            compatible = "zmk, behavior-tap-dance";
-//            #binding-cells = <0>;
-//            tapping-term-ms = <200>;
-//            bindings = <&kp SQT>, <&kp DQT>;
-//        };
+
+        t_qt: t_qt {
+            compatible = "zmk, behavior-tap-dance";
+            label = "t_qt"
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp SQT>, <&kp DQT>;
+        };
 //
 //        tap_dance_sla: tap_dance_sla {
 //            compatible = "zmk, behavior-tap-dance";
