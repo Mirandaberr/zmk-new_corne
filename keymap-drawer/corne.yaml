@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
 layers:
   default:
-  - $$mdi:keyboard-tab$$
+  - $$mdi:keyboard-esc$$
   - Q
   - W
   - E
@@ -26,7 +26,7 @@ layers:
   - K
   - L
   - '&t_sc'
-  - {t: '''', s: '"'}
+  - '&t_qt'
   - '&td0'
   - Z
   - X
@@ -36,10 +36,10 @@ layers:
   - $$mdi:arrow-left-bold$$
   - N
   - M
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - {t: /, s: '?'}
-  - $$mdi:keyboard-esc$$
+  - '&t_cl'
+  - '&t_dot'
+  - '&t_sl'
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:keyboard-space$$
   - LGUI
   - lower
