@@ -42,7 +42,7 @@
         };
 
         t_qt: t_qt {
-            compatible = "zmk,behavior-tap-dance";
+            compatible = "zmk, behavior-tap-dance";
             label = "t_qt";
             #binding-cells = <0>;
             //tapping-term-ms = <200>;
@@ -50,7 +50,7 @@
         };
 
         t_sl: t_sl {
-            compatible = "zmk,behavior-tap-dance";
+            compatible = "zmk, behavior-tap-dance";
             #binding-cells = <0>;
             label = "t_sl";
             //tapping-term-ms = <200>;
@@ -66,20 +66,20 @@
         };
 
         t_dt: t_dt {
-            compatible = "zmk,behavior-tap-dance";
+            compatible = "zmk, behavior-tap-dance";
             #binding-cells = <0>;
-            label = "t_dt";
+            label = "t_dt"
             //tapping-term-ms = <200>;
             bindings = <&kp DOT>, <&kp GREATER_THAN>;
         };
         t_cut: t_cut {
-            compatible = "zmk,behavior-tap-dance";
+            compatible = "zmk, behavior-tap-dance";
             #binding-cells = <0>;
             //tapping-term-ms = <200>;
             bindings = <&kp LC(C)>, <&kp LG(C)>;
         };
          t_paste: t_paste {
-            compatible = "zmk,behavior-tap-dance";
+            compatible = "zmk, behavior-tap-dance";
             #binding-cells = <0>;
             //tapping-term-ms = <200>;
             bindings = <&kp LC(V)>, <&kp LG(V)>;
@@ -137,10 +137,10 @@
 
 
             bindings = <
-&kp ESC          &kp N1           &kp N2          &kp N3        &kp N4        &kp N5             &mmv MOVE_UP     &kp N6   &kp N7  &kp N8     &kp N9    &kp N0      &kp BSPC
-&bt BT_CLR_ALL   &bt BT_SEL 1     &bt BT_SEL 2    &bt BT_SEL 3  &bt BT_SEL 4  &trans             &mmv MOVE_DOWN   &trans   &trans  &trans     &kp UP    &trans      &kp PSCR
-&none            &none            &none           &none         &none         &none              &mmv MOVE_LEFT   &trans   &trans  &kp LEFT   &kp DOWN  &kp RIGHT   &kp INSERT
-                                  &kp C_MUTE      &kp LALT        &trans        &trans           &mmv MOVE_RIGHT  &kp INS  &kp RALT &trans
+&kp ESC          &kp N1           &kp N2          &kp N3        &kp N4        &kp N5             &mmv MOVE_UP     &kp N6           &kp N7           &kp N8           &kp N9           &kp N0      &kp BSPC
+&bt BT_CLR_ALL   &bt BT_SEL 1     &bt BT_SEL 2    &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 5       &mmv MOVE_DOWN   &none            &none            &kp HOME         &kp UP           &kp FIN     &kp PRINTSCREEN
+&none            &none            &none           &none         &none         &none              &mmv MOVE_LEFT   &none            &none            &kp LEFT         &kp DOWN         &kp RIGHT   &kp INSERT
+                         &kp C_MUTE      &kp LALT        &trans        &trans                    &mmv MOVE_RIGHT  &kp INS          &kp DEL          &trans
                                                                                                  &mkp LCLK
             >;
 
@@ -159,7 +159,7 @@
 
             bindings = <
 &kp PIPE   &kp EXCL      &kp AT        &kp HASH      &kp DLLR       &kp PRCNT           &mmv MOVE_UP     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
-&kp TILDE  &kp BSLH      &none         &none         &none          &none               &mmv MOVE_DOWN   &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
+&kp TILDE  &kp BSLH      &none         &kp RG(RS(3)) &kp RG(RS(4))  &kp RG(RS(5))       &mmv MOVE_DOWN   &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
 &trans     &out OUT_USB  &out OUT_BLE  &none         &none          &mkp MB5            &mmv MOVE_LEFT   &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
                       &trans        &trans     &trans     &kp SPACE                     &mmv MOVE_RIGHT  &kp RET    &trans     &trans
                                                                                         &mkp LCLK
