@@ -43,7 +43,7 @@
 
         t_qt: t_qt {
             compatible = "zmk, behavior-tap-dance";
-            label = "t_qt"
+            label = "t_qt";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp SQT>, <&kp DQT>;
