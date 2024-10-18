@@ -67,7 +67,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Sft+ $$mdi:apple-keyboard-option$$
   - Alt+ LGUI
-  - Alt+ LGUI(T)
+  - Alt+Gui+ T
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
