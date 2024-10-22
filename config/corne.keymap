@@ -136,9 +136,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESC &kp N1           &kp N2          &kp N3        &kp N4          &kp N5             &mmv MOVE_UP     &kp N6           &kp N7           &kp N8           &kp N9      &kp N0      &kp DEL
-&trans  &trans           &kp LS(LALT)    &kp LA(LGUI)  &kp LA(LG(T))   &trans             &mmv MOVE_DOWN   &mkp LCLK        &mkp RCLK        &kp HOME         &kp UP      &kp END     &kp PG_UP
-&trans  &trans           &trans          &trans        &trans          &trans             &mmv MOVE_LEFT   &trans           &trans           &kp LEFT         &kp DOWN    &kp RIGHT   &kp PG_DN
+&kp ESC      &kp N1           &kp N2          &kp N3        &kp N4          &kp N5             &mmv MOVE_UP     &kp N6           &kp N7           &kp N8           &kp N9      &kp N0      &kp DEL
+&trans       &trans           &kp LS(LALT)    &kp LA(LGUI)  &kp LA(LG(T))   &trans             &mmv MOVE_DOWN   &mkp LCLK        &mkp RCLK        &kp HOME         &kp UP      &kp END     &kp PG_UP
+&bt BT_CLR  &bt BT_SEL 1      &bt BT_SEL 2    &bt BT_SEL 3 &bt BT_SEL 4    &bt BT_SEL 5             &mmv MOVE_LEFT   &trans           &trans           &kp LEFT         &kp DOWN    &kp RIGHT   &kp PG_DN
                          &kp C_MUTE      &trans        &trans          &trans             &mmv MOVE_RIGHT  &kp INS          &trans           &kp RALT
                                                                                         &mkp LCLK
             >;
