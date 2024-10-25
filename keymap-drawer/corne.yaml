@@ -40,8 +40,8 @@ layers:
   - '&t_dot'
   - '&t_sl'
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:keyboard-space$$
-  - LGUI
+  - MUT
+  - $$mdi:apple-keyboard-option$$
   - lower
   - {t: '$$mdi:keyboard-space$$', h: '3'}
   - $$mdi:arrow-right-bold$$
@@ -64,7 +64,7 @@ layers:
   - {t: '0', s: )}
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+ $$mdi:apple-keyboard-option$$
   - Sft+ $$mdi:apple-keyboard-option$$
   - Alt+ LGUI
   - Alt+Gui+ T
@@ -75,8 +75,8 @@ layers:
   - HOME
   - $$mdi:arrow-up-bold$$
   - END
-  - PG UP
-  - $$mdi:bluetooth-off$$
+  - PRINTSCREEN
+  - {t: '$$mdi:transfer$$', type: trans}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
@@ -88,9 +88,9 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - PG DN
+  - INS
   - $$mdi:volume-off$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - LGUI
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
@@ -113,7 +113,7 @@ layers:
   - )
   - {t: '$$mdi:backspace$$', type: backspace}
   - '~'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: \, s: '|'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -149,7 +149,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   '3':
   - RGB TOG
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:bluetooth-off$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:progress-download$$
