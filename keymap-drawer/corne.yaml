@@ -41,7 +41,7 @@ layers:
   - '&t_sl'
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:keyboard-space$$
-  - LGUI
+  - $$mdi:apple-keyboard-option$$
   - lower
   - {t: '$$mdi:keyboard-space$$', h: '3'}
   - $$mdi:arrow-right-bold$$
