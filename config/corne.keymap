@@ -79,7 +79,7 @@
             #binding-cells = <0>; 
             tapping_term-ms = <200>; 
             binding = <&kp LGUI>, <&kp LALT>; 
-        }
+        };
 //        tap_dance_cut: tap_dance_cut {
 //            compatible = "zmk,behavior-tap-dance";
 //            #binding-cells = <0>;
